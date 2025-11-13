@@ -4,20 +4,9 @@ set -eu
 
 ARCH=$(uname -m)
 
-echo "Installing basic dependencies..."
+echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-	base-devel        \
-	curl              \
-	git               \
-	libx11            \
-	libxrandr         \
-	libxss            \
-	pulseaudio        \
-	pulseaudio-alsa   \
-	wget              \
-	xorg-server-xvfb  \
-	zsync
+# pacman -Syu --noconfirm PACKAGESHERE
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"

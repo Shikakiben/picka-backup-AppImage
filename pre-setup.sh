@@ -38,4 +38,21 @@ chmod +x \
 	"$ANYLINUX_TOOLS_DIR"/get-debloated-pkgs \
 	"$ANYLINUX_TOOLS_DIR"/make-aur-package
 
+echo "Installing basic packaging dependencies..."
+echo "---------------------------------------------------------------"
+pacman-key --init
+pacman -Syy --noconfirm archlinux-keyring
+pacman -Syu --noconfirm \
+	base-devel        \
+	curl              \
+	git               \
+	libx11            \
+	libxrandr         \
+	libxss            \
+	pulseaudio        \
+	pulseaudio-alsa   \
+	wget              \
+	xorg-server-xvfb  \
+	zsync
+
 echo "CONTAINER IS READY!"
