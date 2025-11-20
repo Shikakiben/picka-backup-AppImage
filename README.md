@@ -12,6 +12,7 @@
 * [Latest Stable Release](https://github.com/Shikakiben/pika-backup-AppImage/releases/latest)
 
 ---
+Thanks to [samueru-sama](https://github.com/Samueru-sama) and [fiftydinar](https://github.com/fiftydinar) for making AppImage builds easier and faster with this [TEMPLATE](https://github.com/pkgforge-dev/TEMPLATE-AppImage) using the [Anylinux-AppImages](https://github.com/pkgforge-dev/Anylinux-AppImages) tools.
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it extremely easy to turn any binary into a portable package without using containers or similar tricks.
 
